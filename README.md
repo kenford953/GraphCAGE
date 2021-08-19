@@ -4,7 +4,9 @@ Code for Graph Capsule Aggregation (GraphCAGE), ICMI 2021, https://arxiv.org/pdf
 This repository includes data, code and pretrained models for the ICMI 2021 paper, "Graph Capsule Aggregation for Unaligned Multimodal Sequences". In addition, we show details about cross-modal transformer, hyper-parameters and the extracted features at the end of this document.
 
 ## Data
-We have included preprocessed data from the CMU-MOSI and CMU-MOSEI dataset for multimodal sentiment analysis. These are found in data/mosi_data_noaligned.pkl and mosei_senti_data_noaligned.pkl. To be consistent with previously reported results on both dataset, we used the exact same dataset as used in the baselines.
+Data files ("mosei_senti_data_noalign.pkl" and "mosi_data_noalign.pkl") can be downloaded from [here](https://www.dropbox.com/sh/hyzpgx1hp9nj37s/AAB7FhBqJOFDw2hEyvv2ZXHxa?dl=0).
+
+To retrieve the meta information and the raw data, please refer to the [SDK for these datasets](https://github.com/A2Zadeh/CMU-MultimodalSDK).
 
 ## Run the Code
 ### Requirements
